@@ -1,0 +1,479 @@
+{
+  "unit_0": {
+    "unit_ip": "169.254.10.10",
+    "path_to_file": "unit",
+    "num_of_channels": 3,
+    "stream_video": true,
+    "stream_audio_channel": 2,
+    "frame_size": 8192,
+    "record_4d": true,
+    "record_path": "~/Downloads/",
+    "channel_config": {
+      "0": {
+        "mic_id": 21,
+        "gain": 10000,
+        "beam_x": 0.6,
+        "beam_y": 0.65,
+        "filter_low_freq": 0,
+        "filter_high_freq": 20000
+      },
+      "1": {
+        "mic_id": 41,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 20000
+      },
+      "2": {
+        "mic_id": -1,
+        "gain": 10000,
+        "beam_x": 0.5,
+        "beam_y": 0.5,
+        "filter_low_freq": 0,
+        "filter_high_freq": 20000
+      },
+      "3": {
+        "mic_id": 41,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "4": {
+        "mic_id": 49,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "5": {
+        "mic_id": 0,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "6": {
+        "mic_id": 1,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "7": {
+        "mic_id": 2,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "8": {
+        "mic_id": 3,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "9": {
+        "mic_id": 4,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "10": {
+        "mic_id": 5,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "11": {
+        "mic_id": 6,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "12": {
+        "mic_id": 7,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "13": {
+        "mic_id": 8,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "14": {
+        "mic_id": 9,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "15": {
+        "mic_id": 10,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "16": {
+        "mic_id": 11,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "17": {
+        "mic_id": 12,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "18": {
+        "mic_id": 13,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "19": {
+        "mic_id": 14,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      }
+    }
+  },
+  "unit_1": {
+    "unit_ip": "file",
+    "path_to_file": "/home/esharon/Downloads/forest3",
+    "num_of_channels": 2,
+    "stream_video": true,
+    "stream_audio_channel": 0,
+    "frame_size": 48000,
+    "record_4d": false,
+    "record_path": "~/Downloads/",
+    "channel_config": {
+      "0": {
+        "mic_id": -1,
+        "gain": 1000,
+        "beam_x": 0.5,
+        "beam_y": 0.5,
+        "filter_low_freq": 100,
+        "filter_high_freq": 10000
+      },
+      "1": {
+        "mic_id": 0,
+        "gain": 1000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 100,
+        "filter_high_freq": 10000
+      },
+      "2": {
+        "mic_id": -1,
+        "gain": 1000,
+        "beam_x": 0.5,
+        "beam_y": 0.5,
+        "filter_low_freq": 100,
+        "filter_high_freq": 4000
+      },
+      "3": {
+        "mic_id": 41,
+        "gain": 1000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "4": {
+        "mic_id": 49,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "5": {
+        "mic_id": 0,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "6": {
+        "mic_id": 1,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "7": {
+        "mic_id": 2,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "8": {
+        "mic_id": 3,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "9": {
+        "mic_id": 4,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "10": {
+        "mic_id": 5,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "11": {
+        "mic_id": 6,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "12": {
+        "mic_id": 7,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "13": {
+        "mic_id": 8,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "14": {
+        "mic_id": 9,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "15": {
+        "mic_id": 10,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "16": {
+        "mic_id": 11,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "17": {
+        "mic_id": 12,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "18": {
+        "mic_id": 13,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "19": {
+        "mic_id": 14,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      }
+    }
+  },
+  "mic_unit_0": {
+    "unit_ip": "-1",
+    "path_to_file": "unit",
+    "num_of_channels": 4,
+    "stream_video": false,
+    "stream_audio_channel": 1,
+    "frame_size": 48000,
+    "record_4d": true,
+    "record_path": "/home/esharon/Downloads/recordings/recorded_mic_8.wav",
+    "channel_config": {
+      "0": {
+        "mic_id": 1,
+        "gain": 0,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "1": {
+        "mic_id": 2,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "2": {
+        "mic_id": 3,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "3": {
+        "mic_id": 4,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      }
+    }
+  },
+  "mic_unit_1": {
+    "unit_ip": "0",
+    "path_to_file": "",
+    "comment": "",
+    "num_of_channels": 2,
+    "stream_video": false,
+    "stream_audio_channel": 1,
+    "frame_size": 48000,
+    "record_4d": true,
+    "record_path": "/home/esharon/Downloads/recordings/recorded_mic_8.wav",
+    "channel_config": {
+      "0": {
+        "mic_id": 1,
+        "gain": 0,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "1": {
+        "mic_id": 2,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "2": {
+        "mic_id": 3,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "3": {
+        "mic_id": 4,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      }
+    }
+  },
+  "mic_unit_2":{
+    "unit_ip": "-1",
+    "path_to_file": "/home/user/Downloads/Alesis-Fusion-Nylon-String-Guitar-C4.wav",
+    "num_of_channels": 1,
+    "stream_video": false,
+    "stream_audio_channel": 1,
+    "frame_size": 48000,
+    "record_4d": true,
+    "record_path": "/home/esharon/Downloads/recordings",
+    "channel_config": {
+      "0": {
+        "mic_id": 1,
+        "gain": 0,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "1": {
+        "mic_id": 2,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "2": {
+        "mic_id": 3,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      },
+      "3": {
+        "mic_id": 4,
+        "gain": 10000,
+        "beam_x": -1,
+        "beam_y": -1,
+        "filter_low_freq": 0,
+        "filter_high_freq": 8000
+      }
+    }
+  }
+}

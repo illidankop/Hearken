@@ -1,0 +1,141 @@
+# Running parameters
+
+mode: "train"
+
+workspace: "atmDetection"
+
+dataset_dir: "datasets"
+dataset_name: "atmtypes_32k_28feb"
+testset_name: "atmtypes_32k_test_28feb"
+# dataset_name: "atmtypes_mini"
+
+
+pretrained_checkpoint_path: #"models/MobileNetV2_mAP=0.383.pth"
+model_type: "Transfer_MobileNetV2"
+freeze_base: False
+
+load_checkpoint: False #True for transfer learning
+checkpoint: "models/mobileNet_A_B_N_None.pth"
+# checkpoint: "models/MobileNetV2_mAP=0.383.pth"
+  
+
+num_workers: 0 # 8
+# resume_iteration: 0
+# stop_iteration: 10200
+
+folds: [0,1,2,3,4,5]
+test_fold: [4]
+
+# General augmentations parameters
+mixBackground.prob: 0.1
+mixBackground.mb_alpha: 0.2
+
+whiteNoise.prob: 0.1
+whiteNoise.noiseFactor: 0.3
+
+movingAverage.prob: 0.1
+movingAverage.cutoff: 16000
+
+polarityInversion.prob: 0.1
+
+pitchShift.prob: 0.25
+# pitchShift.pitchFactor: 6
+pitchShift.pitchUpMin: 1
+pitchShift.pitchUpMax: 12
+pitchShift.pitchDnMin: -1
+pitchShift.pitchDnMax: -12
+
+TimeStretch.prob: 0.25
+TimeStretch.stretchMin: 0.75
+TimeStretch.stretchMax: 1.25
+
+resample_new_sr: 32000
+
+
+# Classifier ATM-Background-NonATM
+A_B_N:
+  name: 'A_B_N'
+  class_list : ["Atms","background","nonAtms"]
+  hop: 320
+  mels: 64
+  fft: 1024
+  db: 60
+  f_min: 50.0
+  f_max: 14000.0 # resamp/2
+  resamp: 32000 
+  segment_s: "None"
+  duration: 1
+  downmix: "True"
+  standardize: "False"
+  min_classify: 0.5
+  loss_type: "clip_nll"
+  learning_rate: 0.00001
+  augmentations: ['whiteNoise','mixBackground'] #'pitchShift'] #'TimeStretch'] #, 'pitchShift', 'mixBackground']
+  epochs: 100
+  batch_size: 128
+ 
+
+# Classifier ATM-Background+NonAtm
+A_NB:
+  name: 'A_NB'
+  class_list : ["Atms","nonAtms"]
+  hop: 320
+  mels: 64
+  fft: 1024
+  db: 60
+  f_min: 50.0
+  f_max: 24000.0
+  resamp: 32000 
+  segment_s: "None"
+  duration: 1
+  downmix: "True"
+  standardize: "False"
+  min_classify: 0.5
+  loss_type: "clip_nll"
+  augmentations: [ 'whiteNoise', 'pitchShift']
+  learning_rate: 0.0005
+  epochs: 15
+  batch_size: 64
+
+# Classifier ATM+NonAtm - Background : Explosion-Background
+AN_B:
+  name: 'AN_B'
+  class_list : ["Background","Explosion"]
+  hop: 320
+  mels: 64
+  fft: 1024
+  db: 60
+  f_min: 50.0
+  f_max: 24000.0
+  resamp: 32000 
+  segment_s: "None"
+  duration: 1
+  downmix: "True"
+  standardize: "False"
+  min_classify: 0.5
+  loss_type: "clip_nll"
+  augmentations: ['pitchShift'] #['mixBackground', 'whiteNoise', 'pitchShift']
+  learning_rate: 0.0001
+  epochs: 15
+  batch_size: 64
+
+A_N:
+  name: 'A_N'
+  class_list : ["Atms","NonAtms"]
+  hop: 320
+  mels: 64
+  fft: 1024
+  db: 60
+  f_min: 50.0
+  f_max: 24000.0
+  resamp: 32000 
+  segment_s: "None"
+  duration: 1
+  downmix: "True"
+  standardize: "False"
+  min_classify: 0.5
+  loss_type: "clip_nll"
+  augmentations: ['pitchShift'] #['mixBackground', 'whiteNoise', 'pitchShift']
+  learning_rate: 0.001
+  epochs: 15
+  batch_size: 64

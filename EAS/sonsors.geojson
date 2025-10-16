@@ -1,0 +1,25 @@
+{
+	"type": "FeatureCollection",
+	"name": "sensors",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "SyncopeApi_1",
+				"Type": "Syncope ",
+				"description": "Syncope unit, 8 channels",
+				"heading" : 10,
+				"pattern" : "omni",
+				"media" : "videos/negba.mp4"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					34.701528605,
+					31.6863585,
+					1.50
+				]
+			}
+		}
+	]
+}

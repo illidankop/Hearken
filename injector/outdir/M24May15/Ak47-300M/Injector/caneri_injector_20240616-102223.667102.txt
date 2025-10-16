@@ -1,0 +1,10 @@
+2024-06-16 10:22:24,021 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:41 - logger - set to local time | Line:38 at log_print:logPrint 
+2024-06-16 10:22:24,051 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:181 - inject files dir F:/Injector/M24/May15/300M/300M_AK47/ | Line:38 at log_print:logPrint 
+2024-06-16 10:22:24,083 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:185 - F:\Injector\M24\May15\300M\300M_AK47\Sernso1_05152024_165459_burts.bin | Line:38 at log_print:logPrint 
+2024-06-16 10:22:24,100 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:186 - ======================================================================== | Line:38 at log_print:logPrint 
+2024-06-16 10:22:24,111 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:192 - F:\Injector\M24\May15\300M\300M_AK47\Sernso1_05152024_165459_burts.bin | Line:38 at log_print:logPrint 
+2024-06-16 10:22:24,126 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:204 - injecting meseges from 0 to 100000 | Line:38 at log_print:logPrint 
+2024-06-16 10:22:30,015 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 100 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:22:34,456 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 200 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:22:38,212 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 300 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:22:41,647 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 400 of  3039 | Line:38 at log_print:logPrint 

@@ -1,0 +1,42 @@
+{
+	"type": "FeatureCollection",
+	"name": "sensors",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "mic_unit_0",
+				"Type": "Behringer",
+				"description": "Behringer unit, 4 channels",
+				"heading" : 0,
+				"pattern" : "omni"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					34.662,
+					31.8042,
+					1.05
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"Name": "mic_unit_1",
+				"Type": "Behringer",
+				"description": "Behringer unit, 4 channels",
+				"heading" : 0,
+				"pattern" : "cardio"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					34.6646,
+					31.7952,
+					1.10
+				]
+			}
+		}
+	]
+}

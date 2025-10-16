@@ -1,0 +1,1 @@
+python3 -c "import StreamMicrophone;mic_api = StreamMicrophone.MicApi(chunk_size=2048, channels=4); devices = mic_api.get_devices(); quit()" | grep index

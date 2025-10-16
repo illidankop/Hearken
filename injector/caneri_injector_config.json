@@ -1,0 +1,14 @@
+{
+    "udp_config" : {
+        "ip" : "127.0.0.1",
+        "port" : 6008,
+        "half_msg_size" : 60000
+    },
+    "is_unicast": "True",
+    "outputdir": "/outdir/May15to16/IDF_0225/Injector/",
+    "inject_file_suffix": "bin",
+    "playback_file_path" : "F:/Injector/M24/May15to16/",
+    "playback_file_path_remote" : "N:/_ELTA_RAW_DATA/thunderbolt/1. Othello-P Exp/2024-10-13_309_EXP_Kana_for_India/2024_10_13_309/",
+    "playback_file_path_nabi" : "n:/_ELTA_RAW_DATA/thunderbolt/1. Othello-P Exp/2024-09-25_NabiMusa_EXP_FinalATP/NCAT/27/AK47_200m/",
+    "is_play_in_loop" : "False"
+}

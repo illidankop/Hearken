@@ -1,0 +1,22 @@
+{    
+    "general" : {
+        "play_in_loop" : "False"
+    },
+    "udp_config" : {
+        "ip" : "127.0.0.1",
+        "port" : 14242
+    },
+    "mic_units": [
+        {
+          "unit_name" : "caneri",                              
+          "playback_file_path" : "m4 4_singel.bin",
+          "half_msg_size" : 60000
+        },
+        {
+          "unit_name" : "syncope",
+          "rec_file_prefix" : "syncope_udp_recording",
+          "playback_file_path" : "/outdir/Shizafon_23/UDP_Recordings/"
+        }
+      ]
+}
+  

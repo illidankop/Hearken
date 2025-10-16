@@ -1,0 +1,11 @@
+{
+    "udp_config" : {
+        "ip" : "10.0.0.1",
+         "port" : 5004,
+         "half_msg_size" : 60000
+    },
+    "msgs_per_sec" : 32,
+    "ch_preset" : [16,15,14,13,20,19,1,2],
+    "num_of_channels": 4
+}
+  

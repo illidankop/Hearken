@@ -1,0 +1,22 @@
+{
+    "udp_config" : {
+        "ip" : "127.0.0.1",
+        "port" : 5111,
+        "half_msg_size" : 60000
+    },
+    "msgs_per_sec" : 32,
+    "ch_preset" : [17,15,19],
+    "num_of_channels": 3,    
+    "dynamic_range_history_sec": 20,
+    "is_new_mics": "True",
+    "dying_channel_dynamic_range_new_mics": 0,
+    "dying_channel_dynamic_range_old_mics": 1e-5,
+    "BG_filter" :{
+        "is_filter_BG_noise": "False",        
+        "window_size_in_sec_for_BG_calculation": 5,        
+        "num_of_calculated_BG": 8,
+        "wavelet": "sym4",
+        "soft": 0.5,
+        "frame_window_size_in_sec": 1
+    }
+}

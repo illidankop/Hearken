@@ -1,0 +1,15 @@
+{
+    "BIT_PER_SAMPLE": 16,
+    "udp_config" : {
+        "ip" : "0.0.0.0" ,
+        "port" : 14242,
+        "bufferSize" : 9502
+    },
+    "num_of_channels": 8,
+    "is_udp_recording": 0,
+    "udp_recordings_dest_dir": "/outdir/Shizafon_23/UDP_Recordings/",
+    "udp_rec_file_name": "syncope_udp_recording",
+    "udp_recorder_max_file_size_in_MB": 50
+
+}
+  

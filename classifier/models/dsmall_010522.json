@@ -1,0 +1,15 @@
+{
+  "class_list" : ["background", "drone"],
+  "hop": 640,
+  "mels": 64,
+  "fft": 4096,
+  "db": 80,
+  "f_min": 50.0,
+  "f_max": 14000.0,
+  "resamp": 32000,
+  "segment_s": "None",
+  "duration": 1.0,
+  "downmix": "True",
+  "standardize": "False",
+  "min_classify": 0.5
+}

@@ -1,0 +1,287 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "API documentation for EesRestServer",
+      "version": "1.0.0",
+      "title": "EesRestServer API"
+    },
+    "host": "localhost:5002",
+    "basePath": "/",
+    "tags": [
+      {
+        "name": "default",
+        "description": "API Endpoints"
+      }
+    ],
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/wf_list": {
+        "get": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Get WAV files list",
+          "description": "Returns a list of WAV files",
+          "responses": {
+            "200": {
+              "description": "List of WAV files",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "/position": {
+        "get": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Get position",
+          "description": "Returns the current position",
+          "responses": {
+            "200": {
+              "description": "Current position",
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "/set_geo_pos": {
+        "post": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Set geo position",
+          "description": "Sets the geographic position",
+          "parameters": [
+            {
+              "name": "geo_pos",
+              "in": "query",
+              "required": true,
+              "type": "string"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      },
+      "/output_path": {
+        "post": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Set output path",
+          "description": "Sets the output path",
+          "parameters": [
+            {
+              "name": "path",
+              "in": "query",
+              "required": true,
+              "type": "string"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      },
+      "/pause": {
+        "post": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Pause",
+          "description": "Pauses the process",
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      },
+      "/play": {
+        "post": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Play",
+          "description": "Plays the process",
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      },
+      "/history": {
+        "get": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Get history",
+          "description": "Returns the history",
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      },
+      "/clear_h": {
+        "get": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Clear history",
+          "description": "Clears the history",
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      },
+      "/status": {
+        "get": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Get status",
+          "description": "Returns the current status",
+          "responses": {
+            "200": {
+              "description": "Current status",
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "/temperature": {
+        "post": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Set temperature",
+          "description": "Sets the temperature",
+          "parameters": [
+            {
+              "name": "temperature",
+              "in": "query",
+              "required": true,
+              "type": "number"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      },
+      "/ignore_sectors_deg": {
+        "post": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Set ignore sectors",
+          "description": "Sets the ignore sectors in degrees",
+          "parameters": [
+            {
+              "name": "ignore_sectors",
+              "in": "query",
+              "required": true,
+              "type": "string"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      },
+      "/save_stream": {
+        "post": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Save stream",
+          "description": "Sets the save stream flag",
+          "parameters": [
+            {
+              "name": "save_stream",
+              "in": "query",
+              "required": true,
+              "type": "string"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      },
+      "/set_offset": {
+        "post": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Set calibration offset",
+          "description": "Sets the calibration offset",
+          "parameters": [
+            {
+              "name": "offset",
+              "in": "query",
+              "required": true,
+              "type": "number"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      },
+      "/change_dbg_level": {
+        "post": {
+          "tags": [
+            "default"
+          ],
+          "summary": "Change debug level",
+          "description": "Changes the debug level",
+          "parameters": [
+            {
+              "name": "level",
+              "in": "query",
+              "required": true,
+              "type": "string"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success"
+            }
+          }
+        }
+      }
+    },
+    "definitions": {}
+  }
+  

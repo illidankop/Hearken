@@ -1,0 +1,15 @@
+{
+  "class_list" : ["background","blast", "shock"],
+  "hop": 320,
+  "mels": 64,
+  "fft": 1024,
+  "db": 60,
+  "f_min": 50.0,
+  "f_max": 24000.0,
+  "resamp": 64000,
+  "segment_s": "None",
+  "duration": 0.5,
+  "downmix": "True",
+  "standardize": "False",
+  "min_classify": 0.5
+}

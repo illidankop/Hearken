@@ -1,0 +1,13 @@
+{
+    "num_of_channels": 8,
+    "BIT_PER_SAMPLE": 16,
+    "playback_delay_in_sec" : 1,
+    "played_suffix" : "wav",
+    "playback_loop" : "False",
+    "is_play_single_file" : "False",
+    "is_play_sub_dir_files" : "False",
+    "is_dynamic_player" : "False",
+    "is_terminate_when_finished" : "True",
+    "played_history_file_dir" : "F:/inject_files/4PB/dynamic_play/wav_history/",
+    "played_history_file_name" : "played_history_file.txt"
+}

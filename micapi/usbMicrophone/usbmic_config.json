@@ -1,0 +1,18 @@
+{
+    "microphone_name" : "F Series",
+    "usb_mic_units": [
+        {
+            "unit_id" : 1,
+            "active": 1,
+            "comment": "",
+            "num_of_channels": 4
+        },
+        {
+            "unit_id" : 11,
+            "active": 0,
+            "comment": "",
+            "num_of_channels": 6    
+        }
+    ]
+}
+  

@@ -1,0 +1,35 @@
+2024-06-16 10:20:10,077 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:41 - logger - set to local time | Line:38 at log_print:logPrint 
+2024-06-16 10:20:10,077 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:181 - inject files dir F:/Injector/M24/May15/300M/300M_AK47/ | Line:38 at log_print:logPrint 
+2024-06-16 10:20:10,092 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:185 - F:\Injector\M24\May15\300M\300M_AK47\Sernso1_05152024_165459_burts.bin | Line:38 at log_print:logPrint 
+2024-06-16 10:20:10,092 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:186 - ======================================================================== | Line:38 at log_print:logPrint 
+2024-06-16 10:20:10,092 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:192 - F:\Injector\M24\May15\300M\300M_AK47\Sernso1_05152024_165459_burts.bin | Line:38 at log_print:logPrint 
+2024-06-16 10:20:10,111 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:204 - injecting meseges from 0 to 100000 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:15,200 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 100 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:19,228 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 200 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:23,344 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 300 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:27,070 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 400 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:30,911 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 500 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:34,766 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 600 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:38,729 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 700 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:42,669 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 800 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:46,603 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 900 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:50,428 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 1000 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:54,284 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 1100 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:20:58,189 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 1200 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:01,909 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 1300 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:05,799 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 1400 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:09,711 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 1500 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:13,751 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 1600 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:17,864 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 1700 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:21,902 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 1800 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:25,826 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 1900 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:29,687 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 2000 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:33,259 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 2100 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:36,570 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 2200 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:40,215 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 2300 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:44,115 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 2400 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:48,014 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 2500 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:51,608 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 2600 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:55,317 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 2700 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:21:59,244 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 2800 of  3039 | Line:38 at log_print:logPrint 
+2024-06-16 10:22:03,054 - MainThread: INFO: d:\acoustic\code\Hearken\code\injector\caneriInjector.py:130 - sending msg 2900 of  3039 | Line:38 at log_print:logPrint 

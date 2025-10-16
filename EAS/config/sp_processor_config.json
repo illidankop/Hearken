@@ -1,0 +1,14 @@
+{
+  "configuration": {
+    "grid_size": 200,
+    "num_of_sources": 3,
+    "classification_duration_in_second": 1,  
+    "one_sample_snr_threshold": 0.8,
+    "min_samples_over_threshold": 2,
+    "is_classify_multiple_frequency_ranges": "True",
+    "single_freq_range": [200,6000],
+    "freq_range_dist_targets": [200,1000],
+    "freq_range_near_targets": [1000,6000],
+    "drone_positive_threshold": 50
+  }
+}
